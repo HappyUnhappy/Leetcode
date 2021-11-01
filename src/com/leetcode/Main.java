@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("Test 1. Result = " + result + " and nums = " + Arrays.toString(nums));
         System.out.println("Test 2. Result = " + result2 + " and nums = " + Arrays.toString(nums2));
-        System.out.println("Test 3. Result = " + result3 + " and nums = " + Arrays.toString(nums3)); */
+        System.out.println("Test 3. Result = " + result3 + " and nums = " + Arrays.toString(nums3));
 
         int[] nums = {0, 1, 0, 3, 12};
         int[] nums2 = {1, 0};
@@ -41,6 +41,16 @@ public class Main {
 
         System.out.println("Test 1. Result = " + Arrays.toString(nums));
         System.out.println("Test 2. Result = " + Arrays.toString(nums2));
-        System.out.println("Test 3. Result = " + Arrays.toString(nums3));
+        System.out.println("Test 3. Result = " + Arrays.toString(nums3)); */
+
+        char[] str1 = {'h', 'e', 'l', 'l', 'o'};
+        char[] str2 = {'H', 'a', 'n', 'n', 'a', 'h'};
+
+        ReverseString object = new ReverseString();
+        object.reverseString(str1);
+        object.reverseString(str2);
+
+        System.out.println("Test 1. Result = " + Arrays.toString(str1));
+        System.out.println("Test 2. Result = " + Arrays.toString(str2));
     }
 }
