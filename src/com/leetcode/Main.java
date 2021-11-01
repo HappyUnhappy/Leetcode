@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Test 1. Result = " + result + " and nums = " + Arrays.toString(nums));
         System.out.println("Test 2. Result = " + result2 + " and nums = " + Arrays.toString(nums2));
-        System.out.println("Test 3. Result = " + result3 + " and nums = " + Arrays.toString(nums3)); */
+        System.out.println("Test 3. Result = " + result3 + " and nums = " + Arrays.toString(nums3));
 
         int[] nums = {1, 2, 3, 1};
         int[] nums2 = {1, 2, 3, 4};
@@ -28,6 +28,19 @@ public class Main {
 
         System.out.println("Test 1. Result = " + result + " and nums = " + Arrays.toString(nums));
         System.out.println("Test 2. Result = " + result2 + " and nums = " + Arrays.toString(nums2));
-        System.out.println("Test 3. Result = " + result3 + " and nums = " + Arrays.toString(nums3));
+        System.out.println("Test 3. Result = " + result3 + " and nums = " + Arrays.toString(nums3)); */
+
+        int[] nums = {0, 1, 0, 3, 12};
+        int[] nums2 = {1, 0};
+        int[] nums3 = {2, 1};
+
+        MoveZeroes object = new MoveZeroes();
+        object.moveZeroes(nums);
+        object.moveZeroes(nums2);
+        object.moveZeroes(nums3);
+
+        System.out.println("Test 1. Result = " + Arrays.toString(nums));
+        System.out.println("Test 2. Result = " + Arrays.toString(nums2));
+        System.out.println("Test 3. Result = " + Arrays.toString(nums3));
     }
 }
