@@ -12,7 +12,7 @@ public class RemoveDuplicatesFromSortedArray {
         int previousNumber = nums[0];
         int switchNumberIndex = -1;
 
-        for (int i = 1; i < inputArrayLength; ++i) {
+        for (int i = 1; i < nums.length; ++i) {
             if (nums[i] != previousNumber) {
                 ++uniqueArrayNumbersCount;
                 previousNumber = nums[i];
