@@ -50,7 +50,7 @@ public class MyCircularQueue {
         return true;
     }
 
-    public int front() {
+    public int Front() {
         if (isEmpty()) {
             return -1;
         }
@@ -58,7 +58,7 @@ public class MyCircularQueue {
         return data[head];
     }
 
-    public int rear() {
+    public int Rear() {
         if (isEmpty()) {
             return -1;
         }
