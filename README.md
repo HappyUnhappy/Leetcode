@@ -1,5 +1,7 @@
 # Leetcode
 Solved problems from leetcode.
 
-- Design
-  - Design Circular Queue [Leetcode](https://leetcode.com/problems/design-circular-queue/) [Description]() [Solution](src/main/java/com/leetcode/design/MyCircularQueue.java)
+### Design
+| # | Title | Level |
+|---|-------|-------|
+|622| [Design Circular Queue](notes/0622/README.md) | Medium|
