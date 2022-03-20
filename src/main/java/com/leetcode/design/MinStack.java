@@ -1,3 +1,5 @@
+package com.leetcode.design;
+
 class ReversedListNode {
     private final int data;
     private ReversedListNode prev;
