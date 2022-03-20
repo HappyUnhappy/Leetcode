@@ -3,6 +3,7 @@ package com.leetcode.stack;
 import java.util.Stack;
 
 public class ValidParentheses {
+
     private boolean isOpenBracket(char ch) {
         return switch (ch) {
             case '(', '{', '[' -> true;
